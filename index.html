@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BnB Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuto al tuo BnB!</h1>
+        <p>Scegli i servizi aggiuntivi per il tuo soggiorno:</p>
+        <ul id="services-list"></ul>
+
+        <div class="total">
+            <p>Totale: <span id="total-price">€0.00</span></p>
+        </div>
+
+        <button id="request-button">Richiedi Servizi</button>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Richiesta inviata!</h2>
+            <p>Ti contatteremo per confermare i dettagli del servizio.</p>
+            <button id="close-modal">Chiudi</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
